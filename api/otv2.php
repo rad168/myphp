@@ -179,7 +179,8 @@ $n = array(
 $id=$_GET["id"];$cdn=$n[$id];$cdn1="hs";
 $ml = isset($_GET['ml'])?$_GET['ml']:'23';
 //if ($_GET['ml']){$ml=$_GET['ml'];}else{$ml='23';}
-$ip='1.62.64.92/645c6e6320d051d49b446bac57d65143.v.smtcdns.net';
+//$ip='1.62.64.92/645c6e6320d051d49b446bac57d65143.v.smtcdns.net';
+$ip='01c22eac3524bfc42dc12d59c25221ef.v.smtcdns.net';
 $url='http://'.$ip.'/'.$cdn.'-tx.otvstream.otvcloud.com/otv/skcc/live/channel'.$id.'/'.$ml.'00.m3u8';
 $http='http://'.$cdn.'-'.$cdn1.'.otvstream.otvcloud.com/otv/skcc/review/channel'.$id.'/';
 $contents=get_data($url);
